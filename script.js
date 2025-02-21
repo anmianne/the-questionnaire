@@ -27,7 +27,7 @@ sentBtn.addEventListener('click', function () {
     headers: {
       'Accept': 'application/json',
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer anmianne'
+      'Authorization': 'Bearer: anmianne'
     },
     body: JSON.stringify({
       "name": personName,
